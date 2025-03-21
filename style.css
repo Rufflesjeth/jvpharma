@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,559;1,559&display=swap');
+body{
+	font-family: "Roboto", sans-serif;
+	color: #555555;
+}
+
+.offset:before{
+	display: block;
+	content: "";
+	height: 4rem;
+	margin-top: -4rem;
+}
+/*--- Navbar ---*/
+.navbar{
+
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background: #A31D1D!important;
+}
+.navbar-nav li{
+	padding-right: .7rem;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: whitesmoke;
+	padding-top: .8rem;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #B8D576;
+}
+
+/*--- Landing Page ---*/
+.home-inner{
+	background-image: url(img/medicines.jpg);
+}
+.caption{
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 38%;
+	z-index: 1;
+	color: #E4EFE7;
+}
+.caption h1{
+	font-family: "Montserrat", sans-serif;
+	font-size: 3.8rem;
+	font-weight: 900;
+	letter-spacing: .2rem;
+	text-shadow: .1rem .1rem .8rem black;
+	padding-bottom: .1rem;
+}
+.caption h3{
+	font-family: "Montserrat", sans-serif;
+	font-size: 2rem;
+	text-shadow: .1rem .1rem .5rem black;
+	padding-bottom: 1.6rem;
+}
+.btn-lg{
+	border-width: medium;
+	border-radius: 0;
+	padding: .6rem 1.3rem;
+	font-size: 1.1rem;
+}
+/*----Welcome Section----*/
+.narrow{
+	width: 75%;
+	margin: 1.5rem auto;
+	padding-top: 2rem;
+}
+.narrow h1{
+	font-family: "Montserrat", sans-serif;
+	font-size: 2.4rem;
+}
+.btn-secondary{
+	border-width: medium;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	padding: .6rem 1.2rem;
+	margin: 1rem;
+	color: white;
+	background-color: #189582;
+	border-color: #B8D576;
+}
+.btn-secondary:hover{
+	background-color: #B8D576;
+	border-color: #189582;
+}
+/*--- Team ---*/
+.jumbotron {
+	background-color: #F5ECE0;
+	margin: 0;
+	padding: 2rem 0 3.5rem;
+	border-radius: 0;
+}
+h3.heading{
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.9rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 1.9rem;
+}
+.heading-underline{
+	width: 3rem;
+	height: .2rem;
+	background-color: green;
+	margin: 0 auto 2rem;
+
+}
+.team img{
+	width: 60%;
+	border-radius: 50%;
+	margin-bottom: 1rem;
+}
+h3.team{
+	font-family: "Montserrat", sans-serif;
+}
+.team-hr{
+	border-width: .2rem;
+	width: 4rem;
+	height: .2rem;
+	margin: 0 auto .2rem;
+}
+/*--- Fixed BG ---*/
+#fixed {
+	background-image: url(img/background.jpg);
+	height: 500px;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-size: cover;
+    opacity: 0.60;
+}
+.figure{
+	margin: 0;
+}
+/*--- Two Column Section ---*/
+.img-fluid{
+	width: 80%;
+	margin-left: rem;
+}
+h2.care{
+	margin-bottom: 1rem;
+}
+.care-underline{
+	width: 14rem;
+	height: .2rem;
+	background-color: green;
+	margin-bottom: 1rem;
+	
+}
+.img-logo{
+	width: 50%;
+	margin-left: 10rem;
+}
+
+/*--- Form ---*/
+/* Contact Form Styling */
+  h1.section-title{
+  	font-family: "Montserrat", sans-serif;
+  }
+    h3.section-title{
+  	font-family: "Montserrat", sans-serif;
+  }
+
+  .contact-form-container {
+  			font-family: "Montserrat", sans-serif;
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+             #formMessage {
+            font-size: 14px;
+            font-weight: bold;
+        }
+/* Footer */
+footer {
+	background-color: #40474e ;
+	color: white;
+	padding: 2rem 0 2rem;
+	margin-top: 1rem;
+}
+footer img{
+	height: 3rem;
+	margin: 1.5rem 0;
+}
+footer a {
+	color: white;
+	font-size: 1.5rem;
+	margin: 1.2rem .5rem 0 0;
+}
+footer a:hover{
+	color: #B8D576!important;
+}
+hr.socket{
+	width: 100%;
+	border-top: .2rem solid #666b71;
+	margin-top: 3rem;
+}
